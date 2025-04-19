@@ -1,2 +1,2 @@
 # Dise-oResponsivo
-Curso de Responsive Design - FreeCodeCamp
+*Aprende HTML construyendo una aplicacion de fotos de gatos*
