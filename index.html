@@ -1,53 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=<device-width>, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body>
-   
-    <header><p>This is a static page</p></header>
-     <!--El elemento main se utiliza para representar el contenido
-    principal del cuerpo del documento HTML-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gipsy and Michi's Bio</title>
+    <style>
+        /* Added CSS to better control image sizes */
+        .pet-image {
+            width: 40%;
+            max-width: 400px;
+            height: auto;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        section {
+            margin-bottom: 30px;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>This is a static page</h1>
+    </header>
+    
     <main>
-      <section>
-        <h1>Gipsy´s bio</h1>
+        <section>
+            <h2>Gipsy's bio</h2>
+            <p>Hi, my name is Gipsy :P</p>
+            <div class="image-container">
+                <figure>
+                    <img src="Imagenes/Gipsy1.avif" class="pet-image" alt="Gipsy looking cute">
+                </figure>
+                <figure>
+                    <img src="Imagenes/Gipsy2.avif" class="pet-image" alt="Another photo of Gipsy"> 
+                </figure>
+            </div>
+            <h3>Things Gipsy Likes:</h3>
+            <ul>
+                <li>In construction..</li>
+                <li>...</li>
+                <li>...</li>
+            </ul>
+        </section>
         
-        <p>Hi, my name is Gipsy :P</p>
-        <a href="https://freecatphotoapp.com">
-            <figure>
-                <img src="Imagenes/Gipsy1.avif" width="40%" alt="Gipsy1"/>
-            </figure>
-            <figure>
-                <img src="Imagenes/Gipsy2.avif" width="40%" alt="Gipsy2"/> 
-            </figure>
-                      
-        </a>
-        <h3>Things Gipsy Likes:</h3>
-        <ul>
-            <li>In construction..</li>
-            <li>...</li>
-            <li>...</li>
-          </ul>
-
-      </section>
-      <section>
-        <h1>Michi´s bio</h1>
-        <p>Hi, my name is michi</p>
-        <figure>
-            <img src="Imagenes/Michi1.avif" width="40%" alt="Gipsy1"/>
-        </figure>
-        <figure>
-            <img src="Imagenes/Michi2.avif" width="40%" alt="Gipsy2"/> 
-        </figure>
-        <h3>Things Michi Likes:</h3>
-        <ul>
-            <li>Sleep</li>
-            <li>Light Bath</li>
-            <li>Paperballs</li>
-          </ul>
-      </section>
+        <section>
+            <h2>Michi's bio</h2>
+            <p>Hi, my name is Michi</p>
+            <div class="image-container">
+                <figure>
+                    <img src="Imagenes/Michi1.avif" class="pet-image" alt="Michi relaxing">
+                </figure>
+                <figure>
+                    <img src="Imagenes/Michi2.avif" class="pet-image" alt="Michi playing"> 
+                </figure>
+            </div>
+            <h3>Things Michi Likes:</h3>
+            <ul>
+                <li>Sleep</li>
+                <li>Light Bath</li>
+                <li>Paperballs</li>
+            </ul>
+        </section>
     </main>
-  </body>
+</body>
 </html>
