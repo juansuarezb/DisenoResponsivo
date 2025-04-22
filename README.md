@@ -143,3 +143,28 @@
 >  ```html
 >  <figure><img src="aasdksadka"/></figure>
 >  ```
+> Y para colocar una leyenda a la imagen se utiliza figcaption
+> ```html
+> <figcaption>Cats love lasagna.</figcaption>
+> ```
+
+
+> [!NOTE]
+> ## Paso 15
+> Los elemento de una lista ordenada aparecen enumerados.
+> ```html
+> <h3>Top 3 things cats hate:</h3>
+>        <ol>
+>          <li>flea treatment</li>
+>          <li>thunder</li>
+>          <li>other cats</li>
+>        </ol>
+> ```
+
+
+> [!NOTE]
+> ## Paso 16
+> Ahora usaremos formularios para recolectar información del usuario.
+> ```html
+> <p><em>hola</em>mundo</p>
+> ```
