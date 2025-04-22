@@ -135,11 +135,3 @@
 >          <li>lasagna</li>
 >  </ul>
 > ```
-
-
-> [!NOTE]
-> ## Paso 14
-> Los elementos figure representa contenido independiente y te permitirá asociar una imagen a una descripción.
->  ```html
->  <figure><img src="aasdksadka"/></figure>
->  ```
