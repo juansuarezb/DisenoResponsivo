@@ -168,3 +168,25 @@
 > ```html
 > <p><em>hola</em>mundo</p>
 > ```
+
+
+> [!NOTE]
+> ## Paso 17
+> Ahora usaremos formularios para recolectar información del usuario. <br>
+> El elemento form se utiliza para obtener información de un usuario, como su nombre, correo electrónico y otros detalles. <br>
+> El atributo action indica dónde se deben enviar los datos del formulario. <br>
+> ```html
+> <h2>Cat Form</h2>
+>  <form action="https://freecatphotoapp.com/submit-cat-photo">
+>  <input type="text"/>
+> </form>
+> ```
+> El elemento input te permite recolectar datos desde un formulario web de diferentes formas. Al igual que los elementos img, los elementos input son un void element y no necesitan etiquetas de cierre.
+> **Hay diferentes tipos de elementos input**, los cuales los puedes crear con el atributo type. Puedes crear fácilmente un campo de contraseña (password), un botón de reinicio (reset) o un control para permitir a los usuarios seleccionar un archivo desde su computadora
+
+> [!TIP]
+> <h1>Input Types:</h1>
+> 
+
+> [!NOTE]
+> 
