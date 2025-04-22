@@ -185,8 +185,47 @@
 > **Hay diferentes tipos de elementos input**, los cuales los puedes crear con el atributo type. Puedes crear fácilmente un campo de contraseña (password), un botón de reinicio (reset) o un control para permitir a los usuarios seleccionar un archivo desde su computadora
 
 > [!TIP]
-> <h1>Input Types:</h1>
-> 
+> ### Input Types:
+> ```html
+> &lt;input type="text"/&gt;
+> &lt;input type="password"/&gt;
+> &lt;input type="number"/&gt;
+> &lt;input type="checkbox"/&gt;
+> &lt;input type="color"/&gt;
+> &lt;input type="date"/&gt;
+> &lt;input type="time"/&gt;
+> &lt;input type="search"/&gt;
+> &lt;input type="file"/&gt;
+> &lt;input type="range"/&gt;
+> &lt;input type="radio"/&gt;
+> &lt;input type="submit"/&gt;
+> &lt;input type="week"/&gt;
+> ```
+✅ Opción 2: Sacar el bloque de código fuera del callout
+Otra opción es que el bloque ```html esté fuera del > [!TIP], por ejemplo:
+
+markdown
+Copiar
+Editar
+> [!TIP]
+> Aquí tienes una lista de tipos de `<input>` en HTML:
+
+```html
+<input type="text"/>
+<input type="password"/>
+<input type="number"/>
+<input type="checkbox"/>
+<input type="color"/>
+<input type="date"/>
+<input type="time"/>
+<input type="search"/>
+<input type="file"/>
+<input type="range"/>
+<input type="radio"/>
+<input type="submit"/>
+<input type="week"/>
+```
 
 > [!NOTE]
-> 
+> ## Paso18
+> Para que los datos de un formulario sean accesibles en la ubicación especificada en el atributo action, debes darle al campo de texto un atributo name y asignarle un valor que represente los datos que se están enviando
