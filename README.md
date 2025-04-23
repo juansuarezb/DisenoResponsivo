@@ -202,3 +202,15 @@
 >  <label><input type="radio" id="indoor"/>Indoor</label>
 >  <label><input id="outdoor" type="radio"/>Outdoor</label>
 > ```
+> <p>Actualmente, ambos inputs pueden ser seleccionados a la vez. Para evitar esto podemos agregar un atributo name con un mismo valor</p>
+>
+> ```html
+>  <label><input type="radio" id="indoor" name="indoor-outdoor"/>Indoor</label>
+>  <label><input id="outdoor" type="radio" name="indoor-outdoor"/>Outdoor</label>
+> ```
+> <p>Agregar un atributo value con el mismo valor del id es buena practica</p>
+>
+> ```html
+>  <label><input type="radio" id="indoor" name="indoor-outdoor" value="indoor"/>Indoor</label>
+>  <label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"/>Outdoor</label>
+> ```
