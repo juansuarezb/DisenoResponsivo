@@ -74,18 +74,6 @@
 >  <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back">
 > ```
 
-> [!NOTE]
-> ## Paso 9
-> ```html
->  <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back">
->   
-> ```
-
-> [!NOTE]
-> ## Paso 10
-> ```html
->  <p>Everyone loves <a href="https://cdn.freecodecamp.org/curriculum/cat-photo-app/running-cats.jpg">cute cats</a> online!</p>
-> ```
 
 > [!NOTE]
 > ## Paso 10
@@ -118,7 +106,7 @@
 >      <section>
 >        <h2>Cat Lists</h2>
 >        <h3>Things cats love:</h3>
->    </section>
+>      </section>
 >   </main>
 >  </body>
 > </html>
@@ -206,3 +194,11 @@
 > [!NOTE]
 > ## Paso18
 > Para que los datos de un formulario sean accesibles en la ubicación especificada en el atributo action, debes darle al campo de texto un atributo name y asignarle un valor que represente los datos que se están enviando
+
+> [!NOTE]
+> ## Paso19
+> El atributo id se utiliza para identificar elementos HTML específicos. Cada atributo id debe tener un valor único, diferente a los demás valores id de la página.
+> ```html
+>  <label><input type="radio" id="indoor"/>Indoor</label>
+>  <label><input id="outdoor" type="radio"/>Outdoor</label>
+> ```
