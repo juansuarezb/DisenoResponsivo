@@ -235,5 +235,33 @@
 >  <legend>What´s your cat´s personality?</legend>
 >  <input id="lazy" type="checkbox" name="personality"> <label for="lazy">Lazy</label>
 >  <input id="loving" type="checkbox" name="personality"> <label for="loving">Loving</label>
+>  <input id="energetic" type="checkbox" name="personality"> <label for="energetic">Energetic</label>
 > </fieldset>
 > ```
+
+> [!NOTE]
+> ## Paso22
+> Al igual que los radio button, los datos de formulario de un checkbox se basan en los atributos name / value. Mientras que el atributo value es opcional, es una buena práctica incluirlo en cualquier checkbox o radio button de una página.
+> ```html
+>  <fieldset>
+>            <legend>What's your cat's personality?</legend>
+>            <input id="loving" type="checkbox" name="personality" value="loving"> <label for="loving">Loving</label>
+>            <input id="lazy" type="checkbox" name="personality" value="lazy"> <label for="lazy">Lazy</label>
+>            <input id="energetic" type="checkbox" name="personality" value="energetic"> <label for="energetic"> Energetic</label>
+>  </fieldset>
+> ```
+> Para hacer que una casilla de verificación o un botón de radio este seleccionado de forma predeterminada, necesitas añadirle el atributo checked
+> ```html
+> <input checked type="radio" name="meal" value="breakfast"> Breakfast
+> ```
+
+> [!NOTE]
+> ## Paso 23
+> El elemento footer se utiliza para definir el pie de pagina de un documento o seccion. <br>
+> Todos los elementos que deben ser renderizados o mostrados en la página, deben ir dentro del elemento body. <br>
+> El elemento head se utiliza para contener metadatos sobre el documento, como su título, enlaces a hojas de estilo y scripts. Los metadatos son información sobre la página que no se muestra directamente en la página. <br>
+> El elemento title (título) determina lo que los navegadores muestran en la barra de título o en las pestañas del navegador. <br>
+> Puedes ver que todo el contenido de la página está anidado dentro de un elemento html. El elemento html es elemento esencial de una página HTML y envuelve todo el contenido en la página. <br>
+> Tu también puedes especificar el lenguaje de tu página agregando el atributo lang a el elemento html. <br>
+> Todas las páginas deben comenzar con <!DOCTYPE html>. Esta cadena especial es conocida como una declaración y se asegura de que el navegador intente cumplir las especificaciones de la industria. <br>
+> <!DOCTYPE html> le dice a los navegadores que el documento es un documento HTML5 la cual es la última versión de HTML.
