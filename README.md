@@ -203,7 +203,7 @@
 >  <label><input id="outdoor" type="radio"/>Outdoor</label>
 > ```
 > <p>Actualmente, ambos inputs pueden ser seleccionados a la vez. Para evitar esto podemos agregar un atributo name con un mismo valor</p>
->
+> 
 > ```html
 >  <label><input type="radio" id="indoor" name="indoor-outdoor"/>Indoor</label>
 >  <label><input id="outdoor" type="radio" name="indoor-outdoor"/>Outdoor</label>
@@ -213,4 +213,27 @@
 > ```html
 >  <label><input type="radio" id="indoor" name="indoor-outdoor" value="indoor"/>Indoor</label>
 >  <label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"/>Outdoor</label>
+> ```
+
+> [!NOTE]
+> ## Paso20
+> El elemento fieldset se utiliza para agrupar elementos input y label que esten relacionados. Los elementos fieldset son elementos de nivel de bloque, lo que significa que aparecen en una nueva línea.
+> Para agregar una leyenda para que el usuario sepa que tiene que escoger se tiene el elemento legend
+> ```html
+> <fieldset>
+>          <legend>Is your cat an indoor or outdoor cat?</legend>
+>          <label><input id="indoor" type="radio" name="indoor-outdoor" value="indoor"> Indoor</label>
+>          <label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor</label>
+> </fieldset>
+> ```
+
+> [!NOTE]
+> ## Paso21
+> Para asociar un elemento label con un input se utiliza un for dentro del elemento label con un atributo igual al id del input.
+> ```html
+> <fieldset>
+>  <legend>What´s your cat´s personality?</legend>
+>  <input id="lazy" type="checkbox" name="personality"> <label for="lazy">Lazy</label>
+>  <input id="loving" type="checkbox" name="personality"> <label for="loving">Loving</label>
+> </fieldset>
 > ```
